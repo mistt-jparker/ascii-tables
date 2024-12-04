@@ -3,6 +3,29 @@
 	margin: 0px;
 }
 
+.form-control {
+    background-color: #000;
+    color: #d9d9d9;
+    border: 1px solid #2e2e2e;
+}
+
+.well {
+    background-color: #1c1c1c;
+    color: #d9d9d9;
+    border: 1px solid #2e2e2e;
+}
+
+input, button, select, textarea {
+    background-color: #000;
+    color: #ccc;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #00344d;
+    border-color: #00344d;
+}
+
 header a, footer a {
     color: #fff;
     text-decoration: none;
@@ -26,7 +49,7 @@ header #title  {
 }
 
 #icon {
-	color: #1F669C;
+	color: #ccc;
     margin-top:35px;
 }
 
@@ -49,9 +72,11 @@ header pre {
 }
 
 html, body {
-    height: 100%;
-	margin: 0px;
-	padding: 0px;
+   background-color: #1D2127;
+   color: #d9d9d9;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
 }
     
 .fixed-width {
